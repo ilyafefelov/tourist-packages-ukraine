@@ -12,6 +12,9 @@ locales.forEach((locale) => {
 });
 
 export default {
+    nitro: {
+        preset: 'netlify'
+    },
     modules: [
         '@nuxt/content'
     ],
